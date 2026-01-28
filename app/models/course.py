@@ -6,6 +6,9 @@ class CourseCategory(str, Enum):
     PROGRAMMING = "Programming"
     SECURITY = "Security"
     BUSINESS = "Business"
+    COMMUNICATION = "Communication"
+    BUSINESS_INTELLIGENCE = "Business Intelligence"
+    HANDS_ON = "Hands-On Experience"
 
 class Course(BaseModel):
     id: int = Field(description="Unique course identifier")
