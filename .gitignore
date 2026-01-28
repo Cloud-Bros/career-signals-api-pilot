@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.log
+uvicorn.log
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Build artifacts
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter / Data Science
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary / Cache
+# =========================
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Environment-specific
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Secrets (safety net)
+# =========================
+*.pem
+*.key
+*.crt
